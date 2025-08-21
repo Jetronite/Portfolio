@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #222;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #f39c12;
+}
+
+#hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://picsum.photos/1600/900') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+.highlight {
+    color: #f39c12;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background: #f39c12;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skill {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #f39c12;
+    border: none;
+    color: white;
+}
+
+.form-message {
+    margin-top: 1rem;
+    font-weight: bold;
+}
